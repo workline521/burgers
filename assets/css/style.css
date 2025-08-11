@@ -555,11 +555,17 @@
 .biom__dev-bg{
     position: absolute;
     top: -108px;
-    left: 0;
+    left: -246px;
     width: 1113px;
     height: 757px;
-    background: url('../images/biom.svg') no-repeat center;
-    background-size: contain;
+    z-index: 0;
+}
+.biom__dev-bg svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 0 2px #46C4FF) drop-shadow(0 0 32px #46C4FF) drop-shadow(0 0 8px #00E9F1);
 }
 .biom__dev-wrap{
     display: flex;
@@ -579,6 +585,8 @@
     border-radius: 30px;
     border: 2px solid #00E9F1;
     box-shadow: 0 0 16px 0 #46C4FF;
+    position: relative;
+    z-index: 5;
 }
 .biom__dev-video{
     margin-top: 15px;
@@ -586,7 +594,7 @@
     border-radius: 20px;
     width: calc(100% - 30px);
     height: calc(100% - 30px);
-    overflow: hidden;
+    overflow: hidden;    
 }
 .biom__dev-right{
     width: 34.6%;
