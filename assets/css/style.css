@@ -431,6 +431,7 @@
     width: calc(100% - 34px);
     height: calc(100% - 34px);
     overflow: hidden;
+    background: #00E9F1;
 }
 .biom__athlete{
     width: 100%;
@@ -698,6 +699,23 @@
     overflow: hidden;
     position: relative;
     z-index: 5;
+}
+.biom__soc-wrap .icons-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    justify-content: space-between;
+}
+@media (hover: hover){
+    .biom__soc-wrap .icons-row a img, .promo-bottom .icons-row a svg {
+        pointer-events: none;
+        transition: filter 0.2s ease;
+    }
+    .biom__soc-wrap .icons-row a:hover svg {
+        filter: drop-shadow(0px 0px 8px #00e9f1) drop-shadow(0px 0px 32px #46c4ff) drop-shadow(0px 0px 40px rgba(70, 196, 255, 0)) !important;
+    }
 }
 .biom__logo{
     display: block;
