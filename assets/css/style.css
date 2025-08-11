@@ -1002,7 +1002,7 @@
 .biom__slide-heading span{
     display: block;
     position: relative;
-    top: -5px;
+    margin-top: 4px;
 }
 .biom__slide-txt{
     color: #8F8F8F;
