@@ -22,16 +22,17 @@
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
-    padding-top: 50px;
+    padding-top: 26px;
     z-index: 3;
 }
 .biom__wrapper::after{
     position: absolute;
     content: '';
-    top: 385px;
-    left: 0;
-    width: 100px;
-    height: 123px;
+    top: 260px;
+    left: 50%;
+    margin-left: -67px;
+    width: 135px;
+    height: 135px;
     background: url('../images/mobile/scr.png') no-repeat center;
     background-size: contain;
     z-index: 2;
@@ -49,6 +50,7 @@
     width: 100%;
     height: 809px;
     background: url('../images/mobile/blue1.svg') no-repeat center;
+    background-size: cover;
 }
 .biom__first::before{
     position: absolute;
@@ -59,6 +61,7 @@
     width: 100%;
     height: 675px;
     background: url('../images/mobile/red1.svg') no-repeat center;
+    background-size: cover;
 }
 .biom__first img{
     display: block;
@@ -72,20 +75,20 @@
     z-index: 0;
 }
 .biom__txt-wrap{
-    max-width: 160px;
+    max-width: 132px;
     margin-left: auto;
-    margin-bottom: 294px;
+    margin-bottom: 283px;
 }
 .biom__title{
     color: #FFF;
     font-family: "Phonk Sans";
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 130%;
     text-align: left;
 }
 .biom__desc{
-    margin-top: 12px;
+    margin-top: 8px;
     text-align: left;
     color: #FFF;
     font-size: 10px;
@@ -121,7 +124,6 @@
     font-weight: 300;
     line-height: 130%;
     letter-spacing: 0.14px;
-    padding-left: 37px;
     width: 100%;
 }
 .biom__txt{
@@ -176,8 +178,8 @@
 .biom__features-lines::after{
     position: absolute;
     content: '';
-    right: 0;
-    top: -550px;
+    right: -100px;
+    top: -368px;
     z-index: 0;
     width: 374px;
     height: 604px;
@@ -190,7 +192,7 @@
 .biom__content{
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 40px;
+    margin-top: 69px;
     position: relative;
     z-index: 5;
 }
@@ -245,6 +247,7 @@
 }
 .biom__features-info{
     width: 46%;
+    margin-bottom: 10px;
 }
 .biom__features-item{
     margin-bottom: 20px;
@@ -290,27 +293,25 @@
 }
 .biom__features-render{
     width: 47%;
+    margin-bottom: 10px;
 }
 .biom__features-picture1{
-    border-radius: 10px;
-    background: #587878;
-    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 .biom__features-picture1 img{
+    position: absolute;
+    right: -24px;
+    bottom: 0;
     display: block;
-    max-width: 100%;
     object-fit: contain;
+    max-width: none;
 }
 .biom__features-picture2{
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 15px;
+    display: none;
 }
-.biom__features-picture2 img{
-    display: block;
-    max-width: 100%;
-    object-fit: contain;
-}
+
 .biom__features-wide{
     width: 100%;
     height: 134px;
@@ -323,9 +324,17 @@
     left: 0;
     bottom: 0;
     display: block;
-    width: 90%;
-    max-width: 90%;
+    width: 100%;
+    max-width: 100%;
     object-fit: contain;
+}
+@media (min-width: 400px){
+    .biom__features-wide img{
+        margin-bottom: -10px;
+    }
+}
+.biom__slider{
+    padding-top: 45px !important;
 }
 .biom__slider-block{
     margin-top: 84px;
@@ -333,8 +342,6 @@
 .biom__slider-container{
     position: relative;
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 .custom-pagination{
     display: none;
@@ -377,6 +384,7 @@
     margin-left: 20px;
     margin-right: 20px;
     position: relative;
+    margin-bottom: -42px;
 }
 .biom__slider-title::after{
     position: absolute;
@@ -413,7 +421,7 @@
     transform: translate(-50%, -50%);
     width: 374px;
     height: 467px;
-    background: url(../images/slider-bg.png) no-repeat center;
+    background: url(../images/mobile/slider-bg.png) no-repeat center;
     background-size: contain;
 }
 .biom__product-wrap img{
@@ -439,11 +447,13 @@
     top: 368px;
     left: 0;
     width: 100%;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 68px;
+    padding-right: 68px;
 }
 .biom__slide-content{
     margin-top: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .biom__slide-name{
     width: fit-content;
@@ -544,7 +554,7 @@
     text-decoration: none;
 }
 .biom__why-title{
-    margin-top: 90px;
+    margin-top: 56px;
     color: #FFF;
     text-shadow: 0 0 3px #FFF, 0 0 12px #CACACA, 0 0 46px #D7D7D7;
     font-family: "Phonk Sans";
@@ -586,7 +596,7 @@
 .biom__why-num{
     display: flex;
     align-items: flex-end;
-    margin-top: 75px;
+    margin-top: 64px;
     color: #FFF;
     text-shadow: 0 0 14.946px #FFF, 0 0 59.785px #CACACA, 0 0 239.142px #D7D7D7;
     font-family: "Phonk Sans";    
@@ -597,6 +607,7 @@
 .biom__why-num span:nth-child(1){
     font-size: 105px;
     line-height: 1;
+    margin-bottom: 20px;
 }
 .biom__why-num span:nth-child(2){
     font-size: 75px;
@@ -608,6 +619,7 @@
 .biom__why-content img{
     margin-left: -20px;
     margin-bottom: -20px;
+    margin-top: -1px;
 }
 .biom__why-txt{
     color: #FFF;
@@ -651,7 +663,7 @@
     border-radius: 10px;
 }
 .biom__athlete-container{
-    margin-top: 55px;    
+    margin-top: 66px;    
 }
 .biom__athlete{
     position: relative;
@@ -666,6 +678,16 @@
     width: 374px;
     height: 719px;
     background: url('../images/mobile/blue3.svg') no-repeat center;
+    background-size: contain;
+}
+.biom__athlete::before{
+    position: absolute;
+    content: '';
+    top: -30px;
+    right: 0;
+    width: 374px;
+    height: 737px;
+    background: url('../images/mobile/red3.svg') no-repeat center;
     background-size: contain;
 }
 .biom__athlete-title{
@@ -751,7 +773,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 42px;
 }
 .biom__dev-num{
     color: #FFF;
@@ -783,6 +805,7 @@
     line-height: 130%; /* 18.2px */
     letter-spacing: -0.14px;
     padding-left: 107px;
+    margin-top: -12px;
 }
 .biom__dev-logo{
     width: 135px;
@@ -798,7 +821,7 @@
     line-height: 130%;
     letter-spacing: 0.2px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 56px;
 }
 .biom__models-txt span{
     color: #FFF;   
@@ -855,16 +878,20 @@
 .biom__soc-wrap .i-logo {
     transform: scale(0.5);
     display: block;
-    margin-left: -60px;
 }
 .biom__soc-wrap .i-tg {
     transform: scale(0.5);
     display: block;
+    margin-right: 20px;
+    position: relative;
+    left: -40px;
 }
 .biom__soc-wrap .i-vk {
     transform: scale(0.5);
     display: block;
     margin-right: -20px;
+    position: relative;
+    left: -70px;
 }
 .biom__soc-wrap .icons-row {
     width: 100%;
@@ -873,8 +900,8 @@
     justify-content: center;  
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 72px;
-    padding-bottom: 60px;
+    padding-top: 54px;
+    padding-bottom: 42px;
 }
 .biom__soc-wrap .icons-row svg{
     display: block;
