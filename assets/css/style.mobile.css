@@ -269,8 +269,7 @@
     margin-top: 41px;
 }
 .biom__features-info{
-    width: 46%;
-    margin-bottom: 10px;
+    width: 49%;
 }
 .biom__features-item{
     margin-bottom: 20px;
@@ -316,7 +315,6 @@
 }
 .biom__features-render{
     width: 47%;
-    margin-bottom: 10px;
 }
 .biom__features-picture1{
     position: relative;
@@ -325,7 +323,7 @@
 }
 .biom__features-picture1 img{
     position: absolute;
-    right: -24px;
+    right: -20px;
     bottom: 0;
     display: block;
     object-fit: contain;
@@ -334,28 +332,27 @@
 .biom__features-picture2{
     display: none;
 }
-
-.biom__features-wide{
+.biom__features-mobile-picture{
+    display: block !important;
     width: 100%;
-    height: 134px;
-    border-radius: 10px;
+    height: 102px;
+    border-radius: 6px;
     background: #587878;
     position: relative;
 }
-.biom__features-wide img{
+.biom__features-mobile-picture img{
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: -5px;
+    bottom: 24px;
     display: block;
-    width: 100%;
-    max-width: 100%;
     object-fit: contain;
+    max-width: none;
+    z-index: 1;
 }
-@media (min-width: 400px){
-    .biom__features-wide img{
-        margin-bottom: -10px;
-    }
+.biom__features-wide{
+    display: none;
 }
+
 .biom__slider{
     padding-top: 45px !important;
 }
