@@ -1119,7 +1119,7 @@
 .biom__animate{
     opacity: 0;
     transform: translateY(30px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out;
 }
 .biom__animate.visible {
     opacity: 1;
@@ -1135,8 +1135,19 @@
     .biom__info{
         margin-top: 270px;
     }
+    .biom__features-title::after {
+        left: 3px;
+        top: -30px;
+    }
+    .biom__slider-title::after{
+        left: -70px;
+    }
+    .biom__why-title::after {
+        left: 3px;
+        top: -30px;
+    }
 }
-@media(max-width: 1400px){
+@media(max-width: 1439px){
     .biom__title{
         margin-right: 60px;
         font-size: 30px;
@@ -1178,10 +1189,6 @@
     .biom__features-title{
         font-size: 46px;
     }
-    .biom__features-title::after{
-        left: 3px;
-        top: -30px;
-    }
     .biom__features-tech{
         margin-top: 25px;
         font-size: 28px;
@@ -1221,9 +1228,6 @@
         font-size: 46px;
         width: fit-content;
     }
-    .biom__slider-title::after{
-        left: -70px;
-    }
     .biom__slider-container{
         padding-left: 20px;
         padding-right: 20px;
@@ -1256,10 +1260,6 @@
     }
     .biom__why-title{
         font-size: 46px;
-    }
-    .biom__why-title::after {
-        left: 3px;
-        top: -30px;
     }
     .swiper-pagination-horizontal{
         left: 0 !important;
@@ -1382,4 +1382,73 @@
 }
 .biom__features-mobile-picture{
     display: none !important;
+}
+
+.promo-bottom {
+    transform: scale(0.6);
+}
+.promo-bottom .icons-row {
+    width: 50rem;
+    flex: 0 0 50rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 5.4rem;
+}
+.promo-bottom .i-logo {
+    position: relative;
+    width: 25.1rem;
+    flex: 0 0 25.1rem;
+    height: 6.8rem;
+}
+.promo-bottom .i-tg {
+    position: relative;
+    width: 6.8rem;
+    flex: 0 0 6.8rem;
+    height: 6.8rem;
+}
+.promo-bottom .i-vk {
+    position: relative;
+    width: 6.8rem;
+    flex: 0 0 6.8rem;
+    height: 6.8rem;
+}
+.promo-bottom .i-logo svg {
+    display: block;
+    width: 25.3rem;
+    flex: 0 0 25.3rem;
+    height: 6.9rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.promo-bottom .i-tg svg {
+    display: block;
+    width: 6.9rem;
+    flex: 0 0 6.9rem;
+    height: 7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.promo-bottom .i-vk svg {
+    display: block;
+    width: 6.9rem;
+    flex: 0 0 6.9rem;
+    height: 7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.promo-bottom .icons-row a img, .promo-bottom .icons-row a svg {
+    pointer-events: none;
+    transition: filter 0.2s ease;
+}
+.promo-bottom .icons-row a:hover svg {
+    filter: drop-shadow(0px 0px 8px #00e9f1) drop-shadow(0px 0px 32px #46c4ff) drop-shadow(0px 0px 40px rgba(70, 196, 255, 0)) !important;
 }
