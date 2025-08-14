@@ -237,7 +237,7 @@
     position: absolute;
     content: '01';
     top: -17px;
-    left: 0;
+    left: 3px;
     color: #FFF;
     text-shadow: 0 0 3px #FFF, 0 0 12px #CACACA, 0 0 46px #D7D7D7;
     font-family: "Phonk Sans";
@@ -247,8 +247,6 @@
     line-height: 1;
     letter-spacing: 0.1px;
     display: block;
-    width: 16px;
-    height: 16px;
 }
 .biom__features-tech{
     margin-top: 15px;
@@ -407,7 +405,7 @@
     position: absolute;
     content: '02';
     top: -11px;
-    left: 0;
+    left: 3px;
     color: #FFF;
     text-shadow: 0 0 3px #FFF, 0 0 12px #CACACA, 0 0 46px #D7D7D7;
     font-family: "Phonk Sans";
@@ -606,7 +604,7 @@
     position: absolute;
     content: '03';
     top: -15px;
-    left: 0;
+    left: 3px;
     color: #FFF;
     text-shadow: 0 0 2.903px #FFF, 0 0 11.613px #CACACA, 0 0 46.452px #D7D7D7;
     font-family: "Phonk Sans";
@@ -616,8 +614,6 @@
     line-height: 1;
     letter-spacing: 0.1px;
     display: block;
-    width: 20px;
-    height: 10px;
 }
 .biom__why-wrap{
     display: flex;

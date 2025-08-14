@@ -247,8 +247,6 @@
     line-height: 130%;
     letter-spacing: 0.18px;
     display: block;
-    width: 28px;
-    height: 24px;
 }
 .biom__content{
     position: relative;
@@ -416,8 +414,6 @@
     line-height: 130%;
     letter-spacing: 0.18px;
     display: block;
-    width: 28px;
-    height: 24px;
 }
 .biom__why-left{
     width: 42.4%;
@@ -879,8 +875,6 @@
     line-height: 130%;
     letter-spacing: 0.18px;
     display: block;
-    width: 28px;
-    height: 24px;
 }
 .biom__slider-container{
     position: relative;
@@ -1162,7 +1156,7 @@
     .biom__video{
         width: calc(100% - 40px);
         height: auto;
-        padding-top: 45%;
+        padding-top: 43%;
         position: relative;
     }
     .biom__video video, .biom__video img{
@@ -1185,7 +1179,7 @@
         font-size: 46px;
     }
     .biom__features-title::after{
-        left: 0;
+        left: 3px;
         top: -30px;
     }
     .biom__features-tech{
@@ -1264,7 +1258,7 @@
         font-size: 46px;
     }
     .biom__why-title::after {
-        left: 0;
+        left: 3px;
         top: -30px;
     }
     .swiper-pagination-horizontal{
