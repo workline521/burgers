@@ -180,6 +180,11 @@
     position: relative;
     z-index: 10;
 }
+.biom__video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .biom__features{
     margin-top: 165px;
     position: relative;
@@ -485,6 +490,12 @@
     height: calc(100% - 34px);
     overflow: hidden;
     background: #00E9F1;
+    border-radius: 20px;
+}
+.biom__why-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .biom__athlete{
     width: 100%;
@@ -652,23 +663,31 @@
     border-radius: 20px;
     width: calc(100% - 30px);
     height: calc(100% - 30px);
-    overflow: hidden;    
+    overflow: hidden;
+    border-radius: 20px;    
+}
+.biom__dev-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .biom__dev-right{
-    width: 34.6%;
+    width: 27%;
     padding-top: 157px;
+    margin-right: auto;
+    margin-left: 250px;
 }
 .biom__dev-wrapper{
     position: relative;
 }
 .biom__dev-num{
     position: absolute;
-    top: -155px;
+    top: -100px;
     left: 0;
     color: #FFF;
     text-shadow: 0 0 25.928px #FFF, 0 0 103.713px #CACACA, 0 0 414.852px #D7D7D7;
     font-family: "Phonk Sans";
-    font-size: 324px;
+    font-size: 210px;
     font-weight: 300;
     line-height: 1; 
     letter-spacing: 3px;
@@ -677,19 +696,20 @@
     text-align: right;
     color: #FFF;
     font-family: 'Mulish-Light';
-    font-size: 88px;
+    font-size: 64px;
     font-style: italic;
     font-weight: 200;
     line-height: 130%;
     letter-spacing: -0.88px;
+    width: fit-content;
 }
 .biom__dev-info{
     margin-top: 14px;
     color: #FFF;
-    font-family: 'Mulish-Regular';
+    font-family: 'Mulish-Light';
     font-size: 28px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 130%;
     letter-spacing: -0.28px;
 }
@@ -744,7 +764,7 @@
     width: 326px;
     border-radius: 12px;
     border: 1px solid #00E9F1;
-    box-shadow: 0 0 16px 0 #46C4FF;   
+    box-shadow: 0 0 8px 0 #46C4FF;   
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
@@ -1092,7 +1112,7 @@
     width: 386px;
     border-radius: 18px;
     border: 1px solid #00E9F1;
-    box-shadow: 0 0 16px 0 #46C4FF;
+    box-shadow: 0 0 8px 0 #46C4FF;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -1112,10 +1132,10 @@
 }
 @media (hover: hover){
     .biom__slider-link:hover {
-        box-shadow: 0 0 8px #46c4ff80, 0 0 32px #46c4ff80, 0 0 128px #46c4ffcc;
+        box-shadow: 0 0 16px 0 #46C4FF;
     }
     .biom__link:hover {
-        box-shadow: 0 0 8px #46c4ff80, 0 0 32px #46c4ff80, 0 0 128px #46c4ffcc;
+        box-shadow: 0 0 16px 0 #46C4FF;
     }
 }
 .biom__animate{
@@ -1302,15 +1322,7 @@
         left: -360px;
     }
     .biom__dev-right{
-        width: 37%;
-    }
-    .biom__dev-num{
-        font-size: 260px;
-        top: -130px;
-    }
-    .biom__dev-txt{
-        font-size: 60px;
-        padding-right: 80px;
+        margin-left: 130px;
     }
     .biom__models-txt{
         margin-top: 100px;
@@ -1356,13 +1368,11 @@
         left: -550px;
     }
     .biom__dev-right {
-        width: 44%;
+        width: 36%;
+        margin-left: 80px;
     }
     .biom__dev-info{
-        padding-left: 20px;
-    }
-    .biom__dev-logo{
-        margin-left: 20px;
+        font-size: 26px;
     }
     .biom__dev-left{
         height: 431px;
