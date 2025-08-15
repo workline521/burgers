@@ -1161,17 +1161,6 @@
     .biom__info{
         margin-top: 250px;
     }
-}
-@media screen and (max-width: 1500px){
-    .biom__first{
-        padding-top: 220px;
-    }
-    .biom__title{
-        margin-bottom: 16px;
-    }
-    .biom__info{
-        margin-top: 270px;
-    }
     .biom__features-title::after {
         left: 3px;
         top: -30px;
@@ -1182,6 +1171,17 @@
     .biom__why-title::after {
         left: 3px;
         top: -30px;
+    }
+}
+@media screen and (max-width: 1500px){
+    .biom__first{
+        padding-top: 220px;
+    }
+    .biom__title{
+        margin-bottom: 16px;
+    }
+    .biom__info{
+        margin-top: 270px;
     }
     .biom__dev-wrap{
         padding-left: 20px;
