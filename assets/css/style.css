@@ -59,7 +59,7 @@
     left: -92px;
     width: 257px;
     height: 256px;
-    background: url('../images/scr.png') no-repeat center;
+    background: url('../images/scr.webp') no-repeat center;
     background-size: contain;
     z-index: 2;
 }
@@ -215,7 +215,7 @@
     z-index: 0;
     width: 884px;
     height: 2450px;
-    background: url('../images/lines.png') no-repeat center;
+    background: url('../images/lines.webp') no-repeat center;
     background-size: contain;
 }
 .biom__features-title{
@@ -1009,7 +1009,7 @@
     transform: translate(-50%, -50%);
     width: 904px;
     height: 904px;
-    background: url('../images/slider-bg.png') no-repeat center;
+    background: url('../images/slider-bg.webp') no-repeat center;
     background-size: contain;
     z-index: 0;
 }
@@ -1054,7 +1054,7 @@
     left: -12px;
     width: 68px;
     height: 68px;
-    background: url('../images/dot.png') no-repeat center;
+    background: url('../images/dot.webp') no-repeat center;
     background-size: contain;
 }
 .biom__slide-heading{
