@@ -976,7 +976,7 @@
     opacity: 1;
     transform: translateY(0);
 }
-@media (min-width: 376px){
+@media screen and (min-width: 376px){
     .biom__athlete::before, .biom__athlete::after{
         width: 100%;
         background-size: cover;
@@ -988,7 +988,7 @@
         margin-bottom: 230px;
     }
 }
-@media (min-width: 426px){
+@media screen and (min-width: 426px){
     .biom__wrapper, .biom__content, .biom__slider-block, .biom__why, .biom__athlete, .biom__dev-left, .biom__dev-right, .biom__models{
         max-width: 420px;
         margin-left: auto;

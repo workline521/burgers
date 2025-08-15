@@ -1127,7 +1127,7 @@
     opacity: 1;
     transform: translateY(0);
 }
-@media(max-width: 1500px){
+@media screen and (max-width: 1500px){
     .biom__first{
         padding-top: 220px;
     }
@@ -1153,7 +1153,7 @@
         padding-right: 20px;
     }
 }
-@media(max-width: 1439px){
+@media screen and (max-width: 1439px){
     .biom__title{
         margin-right: 60px;
         font-size: 30px;
@@ -1325,7 +1325,7 @@
         bottom: -190px;
     }
 }
-@media (max-width: 1200px){
+@media screen and (max-width: 1200px){
     .biom__first {
         padding-top: 180px;
     }
