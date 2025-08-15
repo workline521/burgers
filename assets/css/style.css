@@ -68,16 +68,6 @@
     min-height: 1149px;
     padding-top: 342px;
 }
-@media(min-width: 2500px){
-    .biom__first{
-        padding-top: 500px;
-    }
-}
-@media(max-width: 1800px){
-    .biom__first{
-        padding-top: 300px;
-    }
-}
 .biom__first::after{
     position: absolute;
     content: '';
@@ -1147,6 +1137,24 @@
     opacity: 1;
     transform: translateY(0);
 }
+@media screen and (min-width: 2500px){
+    .biom__first{
+        padding-top: 500px;
+    }
+}
+@media screen and (max-width: 1800px){
+    .biom__first{
+        padding-top: 300px;
+    }
+}
+@media screen and (max-width: 1600px){
+    .biom__first{
+        padding-top: 250px;
+    }
+    .biom__info{
+        margin-top: 250px;
+    }
+}
 @media screen and (max-width: 1500px){
     .biom__first{
         padding-top: 220px;
@@ -1179,7 +1187,7 @@
         font-size: 30px;
     }
     .biom__info{
-        margin-top: 170px;
+        margin-top: 200px;
         font-size: 26px;
     }
     .biom__txt{
