@@ -10,8 +10,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta content="telephone=no" name="format-detection">
 		<meta name="HandheldFriendly" content="true">
-		<link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
-		<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+		<link href="./assets/css/normalize.css" rel="stylesheet" type="text/css">
+		<link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
 		
 	</head>
 
@@ -438,7 +438,7 @@
 			function checkWidthAndLoadCSS() {
 				const width = window.innerWidth;				
 				if (width >= 1025) {
-					loadCSS('/assets/css/style.css');
+					loadCSS('./assets/css/style.css');
 					
 				} else {
 					loadCSS('/assets/css/style.mobile.css');
@@ -488,7 +488,7 @@
                         rect.top < window.innerHeight * 0.5 &&
                         rect.bottom > window.innerHeight * 0.5
                     );
-                }
+                } 
 
                 // swiper slider
                 var swiper = new Swiper(".biom__slider", {
