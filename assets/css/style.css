@@ -64,11 +64,13 @@
     z-index: 2;
 }
 .biom__first{
+    width: 100%;
     position: relative;
+    overflow: hidden;
     min-height: 1149px;
     padding-top: 342px;
 }
-.biom__first::after{
+/* .biom__first::after{
     position: absolute;
     content: '';
     left: 0;
@@ -78,6 +80,7 @@
     height: 2241px;
     background: url('../images/blue.svg') no-repeat center;
     background-size: contain;
+    transform: translateZ(0);
 }
 .biom__first::before{
     position: absolute;
@@ -89,7 +92,8 @@
     height: 1958px;
     background: url('../images/red.svg') no-repeat center;
     background-size: contain;
-}
+    transform: translateZ(0);
+}  */
 .biom__first img{
     display: block;
     position: absolute;
@@ -1136,6 +1140,9 @@
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out;
+    transform: translateZ(0);
+    will-change: transform;
+
 }
 .biom__animate.visible {
     opacity: 1;
