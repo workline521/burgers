@@ -64,35 +64,32 @@
     z-index: 2;
 }
 .biom__first{
-    width: 100%;
     position: relative;
     overflow: hidden;
     min-height: 1149px;
     padding-top: 342px;
 }
-.biom__first::after{
-    position: absolute;
-    content: '';
-    left: 0;
-    top: 0;
-    z-index: 1;
-    width: 1922px;
-    height: 2241px;
-    background: url('../images/blue.svg') no-repeat center;
-    background-size: contain;
-    transform: translateZ(0);
+.biom__red1{
+    position: absolute; 
+    top: 495px;
+    left: -495px;
+    width: 1623px;
+    height: 1258px;
+    z-index: 0;
+    border-radius: 1623px;
+    opacity: 0.25;
+    background: radial-gradient(50% 50% at 50% 50%, #FF676A 0%, rgba(255, 103, 106, 0.00) 100%);
 }
-.biom__first::before{
-    position: absolute;
-    content: '';
-    left: 0;
-    top: 0;
-    z-index: 1;
-    width: 1499px;
-    height: 1958px;
-    background: url('../images/red.svg') no-repeat center;
-    background-size: contain;
-    transform: translateZ(0);
+.biom__blue1{
+    position: absolute; 
+    top: 570px;
+    left: -37px;
+    width: 1900px;
+    height: 997px;
+    z-index: 0;
+    border-radius: 1900px;
+    opacity: 0.4;
+    background: radial-gradient(50% 50% at 50% 50%, #46C4FF 0%, rgba(70, 196, 255, 0.00) 100%);
 }
 .biom__first img{
     display: block;
@@ -184,29 +181,28 @@
     margin-top: 165px;
     position: relative;
 }
-.biom__features::after{
+.biom__red2{
     position: absolute;
-    content: '';
-    right: 0;
-    top: -600px;
-    z-index: 0;
-    width: 1053px;
-    height: 2217px;
-    background: url('../images/red2.svg') no-repeat center;
-    background-size: contain;
+    top: -270px;
+    right: -577px;
+    width: 1260px;
+    height: 1260px;
+    border-radius: 50%;
+    opacity: 0.3;
+    background: radial-gradient(50% 50% at 50% 50%, #CB8B41 0%, rgba(203, 139, 65, 0.00) 100%);
+    z-index: 1;
 }
-.biom__features::before{
+.biom__blue2{
     position: absolute;
-    content: '';
-    right: 0;
-    top: -300px;
+    top: -110px;
+    right: -1006px;
+    width: 1873px;
+    height: 1873px;
+    border-radius: 50%;
+    opacity: 0.4;
+    background: radial-gradient(50% 50% at 50% 50%, #46C4FF 0%, rgba(70, 196, 255, 0.00) 100%);
     z-index: 0;
-    width: 1402px;
-    height: 2544px;
-    background: url('../images/blue2.svg') no-repeat center;
-    background-size: contain;
 }
-
 .biom__features-lines{
     width: 100%;
     position: relative;
@@ -505,25 +501,26 @@
 .biom__athlete-container{
     position: relative;
 }
-.biom__athlete-container::before{
+.biom__red3{
     position: absolute;
-    content: '';
-    top: -1300px;
-    right: -400px;
-    width: 1814px;
-    height: 2648px;
-    background: url('../images/red3.svg') no-repeat center;
-    background-size: contain;
+    top: -276px;
+    right: -365px;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 1500px;
+    opacity: 0.3;
+    background: radial-gradient(50% 50% at 50% 50%, #FF676A 0%, rgba(255, 103, 106, 0.00) 100%);
+    z-index: 0;
 }
-.biom__athlete-container::after{
+.biom__blue3{
     position: absolute;
-    content: '';
-    top: -800px;
-    left: 0;
-    width: 1922px;
-    height: 2582px;
-    background: url('../images/blue3.svg') no-repeat center;
-    background-size: contain;
+    top: -448px;
+    left: -65px;
+    width: 1408px;
+    height: 1900px;
+    border-radius: 1900px;
+    opacity: 0.4;
+    background: radial-gradient(50% 50% at 50% 50%, #46C4FF 0%, rgba(70, 196, 255, 0.00) 100%);
 }
 .biom__ahtlete-bg{
     display: block;
@@ -590,26 +587,6 @@
     width: 100%;
     position: relative;
     padding-bottom: 147px;    
-}
-.biom__dev::after{
-    position: absolute;
-    content: '';
-    top: -1000px;
-    right: -700px;
-    width: 1814px;
-    height: 2467px;
-    background: url('../images/red4.svg') no-repeat center;
-    background-size: contain;
-}
-.biom__dev::before{
-    position: absolute;
-    content: '';
-    top: -680px;
-    left: 0;
-    width: 1922px;
-    height: 2065px;
-    background: url('../images/blue4.svg') no-repeat center;
-    background-size: contain;
 }
 @media (min-width: 2500px){
     .biom__athlete-container::after{
@@ -1140,9 +1117,6 @@
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out;
-    transform: translateZ(0);
-    will-change: transform;
-
 }
 .biom__animate.visible {
     opacity: 1;
@@ -1178,6 +1152,12 @@
     .biom__why-title::after {
         left: 3px;
         top: -30px;
+    }
+    .biom__red1{
+        top: 250px;
+    }
+    .biom__blue1{
+        top: 350px;
     }
 }
 @media screen and (max-width: 1500px){

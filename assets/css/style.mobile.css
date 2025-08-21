@@ -64,28 +64,6 @@
     position: relative;
 
 }
-.biom__first::after{
-    position: absolute;
-    content: '';
-    left: 0;
-    top: 40px;
-    z-index: 1;
-    width: 100%;
-    height: 809px;
-    background: url('../images/mobile/blue1.svg') no-repeat center;
-    background-size: cover;
-}
-.biom__first::before{
-    position: absolute;
-    content: '';
-    left: 0;
-    top: 120px;
-    z-index: 2;
-    width: 100%;
-    height: 675px;
-    background: url('../images/mobile/red1.svg') no-repeat center;
-    background-size: cover;
-}
 .biom__first img{
     display: block;
     position: absolute;
@@ -179,24 +157,6 @@
 .biom__features{
     position: relative;
 }
-.biom__features::after{
-    position: absolute;
-    content: '';
-    top: -160px;
-    right: 0;
-    width: 374px;
-    height: 687px;
-    background: url('../images/mobile/red2.svg') no-repeat center;
-}
-.biom__features::before{
-    position: absolute;
-    content: '';
-    top: -70px;
-    right: 0;
-    width: 374px;
-    height: 687px;
-    background: url('../images/mobile/blue2.svg') no-repeat center;
-}
 .biom__features-lines{
     width: 100%;
     position: relative;
@@ -205,7 +165,7 @@
     position: absolute;
     content: '';
     right: -100px;
-    top: -368px;
+    top: -360px;
     z-index: 0;
     width: 374px;
     height: 604px;
@@ -705,33 +665,15 @@
     border-radius: 10px;
 }
 .biom__athlete-container{
-    margin-top: 66px;    
+    margin-top: 66px;
+    position: relative;    
 }
 .biom__athlete{
     position: relative;
     padding-left: 20px;
     padding-right: 20px;
 }
-.biom__athlete::after{
-    position: absolute;
-    content: '';
-    top: -160px;
-    right: 0;
-    width: 374px;
-    height: 719px;
-    background: url('../images/mobile/blue3.svg') no-repeat center;
-    background-size: contain;
-}
-.biom__athlete::before{
-    position: absolute;
-    content: '';
-    top: -30px;
-    right: 0;
-    width: 374px;
-    height: 737px;
-    background: url('../images/mobile/red3.svg') no-repeat center;
-    background-size: contain;
-}
+
 .biom__athlete-title{
     color: #FFF;
     text-shadow: 0 0 6px #FFF, 0 0 26px #CACACA, 0 0 102px #D7D7D7;
@@ -979,6 +921,72 @@
     opacity: 1;
     transform: translateY(0);
 }
+.biom__red1{
+    position: absolute;
+    top: 235px;
+    left: -210px;
+    width: 547px;
+    height: 424px;
+    border-radius: 547px;
+    opacity: 0.2;
+    background: radial-gradient(50% 50% at 50% 50%, #FF676A 0%, rgba(255, 103, 106, 0.00) 100%);
+    z-index: 0;
+}
+.biom__blue1{
+    position: absolute;
+    top: 280px;
+    left: -80px;
+    width: 641px;
+    height: 336px;
+    border-radius: 641px;
+    opacity: 0.4;
+    background: radial-gradient(50% 50% at 50% 50%, #46C4FF 0%, rgba(70, 196, 255, 0.00) 100%);
+    z-index: 0;
+}
+.biom__red2{
+    position: absolute;
+    top: -128px;
+    left: 6px;
+    width: 533px;
+    height: 533px;
+    border-radius: 533px;
+    opacity: 0.3;
+    background: radial-gradient(50% 50% at 50% 50%, #CB8B41 0%, rgba(203, 139, 65, 0.00) 100%);
+    z-index: 0;
+}
+.biom__blue2{
+    position: absolute;
+    top: -64px;
+    left: -163px;
+    width: 792px;
+    height: 792px;
+    border-radius: 792px;
+    opacity: 0.4;
+    background: radial-gradient(50% 50% at 50% 50%, #46C4FF 0%, rgba(70, 196, 255, 0.00) 100%);
+    z-index: 0;
+}
+.biom__red3{
+    position: absolute;
+    top: -62px;
+    right: -170px;
+    width: 533px;
+    height: 533px;
+    border-radius: 435px;
+    opacity: 0.3;
+    background: radial-gradient(50% 50% at 50% 50%, #FF676A 0%, rgba(255, 103, 106, 0.00) 100%);
+    z-index: 0;
+}
+.biom__blue3{
+    position: absolute;
+    top: 40px;
+    left: -102px;
+    width: 409px;
+    height: 552px;
+    border-radius: 552px;
+    opacity: 0.4;
+    background: radial-gradient(50% 50% at 50% 50%, #46C4FF 0%, rgba(70, 196, 255, 0.00) 100%);
+    z-index: 0;
+} 
 @media screen and (min-width: 376px){
     .biom__athlete::before, .biom__athlete::after{
         width: 100%;
