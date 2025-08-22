@@ -3053,15 +3053,15 @@ display: none;
                         <div class="biom__features-wrap">
                             <div class="biom__features-left">
                                 <div class="biom__features-info">
-                                    <div class="biom__features-item">
+                                    <div class="biom__animate biom__features-item">
                                         <div class="biom__features-heading">Гибкость</div>
                                         <div class="biom__features-txt">Подошва легко адаптируется к&nbsp;рельефу и нагрузкам</div>
                                     </div>
-                                    <div class="biom__features-item">
+                                    <div class="biom__animate biom__features-item">
                                         <div class="biom__features-heading">Уверенность</div>
                                         <div class="biom__features-txt">Отличное <br> сцепление на любой поверхности</div>
                                     </div>
-                                    <div class="biom__features-item">
+                                    <div class="biom__animate biom__features-item">
                                         <div class="biom__features-heading">Поддержка</div>
                                         <div class="biom__features-txt">Ассиметричная пятка стабилизирует каждый шаг</div>
                                     </div>
@@ -3265,8 +3265,8 @@ display: none;
                         </picture> 
                         <div class="biom__animate biom__athlete-title">2500</div>
                         <div class="biom__athlete-wrap">
-                            <div class="biom__athlete-txt">атлетов</div>
-                            <div class="biom__athlete-info">приняли участие в&nbsp;разработке <br> и тестировании технологии</div>
+                            <div class="biom__animate biom__athlete-txt">атлетов</div>
+                            <div class="biom__animate biom__athlete-info">приняли участие в&nbsp;разработке <br> и тестировании технологии</div>
                         </div>
                     </div>
                 </div>
@@ -3295,8 +3295,8 @@ display: none;
                                 <div class="biom__dev-num">3</div>
                                 <div class="biom__dev-txt">года <br> разработки</div>
                             </div>
-                            <div class="biom__dev-info">технологии BIOM совместно <br>с Институтом биомеханики <br> и ортопедии Кельна</div>
-                            <img class="biom__dev-logo" src="./assets/images/d-logo2.svg" alt="logo">
+                            <div class="biom__animate biom__dev-info">технологии BIOM совместно <br>с Институтом биомеханики <br> и ортопедии Кельна</div>
+                            <img class="biom__animate biom__dev-logo" src="./assets/images/d-logo2.svg" alt="logo">
                         </div>
                     </div>
                     <div class="biom__animate biom__models">
@@ -3462,7 +3462,7 @@ display: none;
             window.addEventListener('DOMContentLoaded', setupScrollAnimation);
             
             //плавное появление biom__features-item при прокрутке до их блока
-            document.addEventListener('DOMContentLoaded', () => {
+/*             document.addEventListener('DOMContentLoaded', () => {
                 const items = document.querySelectorAll('.biom__features-item');
                 
                 const observer = new IntersectionObserver((entries, observer) => {
@@ -3485,7 +3485,7 @@ display: none;
                 });
 
                 items.forEach(item => observer.observe(item));
-            });
+            }); */
         </script>
             <!--[TPL HERE]  END-->
         <div id="main-confirm-order" class="main-confirm-order ipopap" style="display: none"></div>

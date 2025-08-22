@@ -313,8 +313,7 @@
 .biom__features-item{
     margin-bottom: 80px;
     padding-left: 50px;
-    opacity: 0;
-    transition: opacity 0.6s ease-out;
+    transition-delay: 0.3s !important;
 }
 .biom__features-heading{
     position: relative;
