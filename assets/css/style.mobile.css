@@ -1110,3 +1110,7 @@
 .promo-bottom .icons-row a:hover svg {
     filter: drop-shadow(0px 0px 8px #00e9f1) drop-shadow(0px 0px 32px #46c4ff) drop-shadow(0px 0px 40px rgba(70, 196, 255, 0)) !important;
 }
+.biom__animate.biom__info, .biom__animate.biom__txt{
+    opacity: 1;
+    transform: translateY(0px);
+}
