@@ -3460,32 +3460,6 @@ display: none;
                 infoBlocks.forEach(block => observer.observe(block));                
             }
             window.addEventListener('DOMContentLoaded', setupScrollAnimation);
-            
-            //плавное появление biom__features-item при прокрутке до их блока
-/*             document.addEventListener('DOMContentLoaded', () => {
-                const items = document.querySelectorAll('.biom__features-item');
-                
-                const observer = new IntersectionObserver((entries, observer) => {
-                    entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const index = Array.from(items).indexOf(entry.target);
-                        const delay = index * 300; // 0.2s задержка для каждого последующего элемента
-                        
-                        setTimeout(() => {
-                        entry.target.style.opacity = 1;
-                        }, delay);
-                        
-                        // Прекращаем наблюдение после активации
-                        observer.unobserve(entry.target);
-                    }
-                    });
-                }, {
-                    rootMargin: '0px 0px -50px 0px', // Срабатывает при появлении нижней части элемента
-                    threshold: 0.1
-                });
-
-                items.forEach(item => observer.observe(item));
-            }); */
         </script>
             <!--[TPL HERE]  END-->
         <div id="main-confirm-order" class="main-confirm-order ipopap" style="display: none"></div>

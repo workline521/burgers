@@ -313,8 +313,8 @@
 .biom__features-item{
     margin-bottom: 80px;
     padding-left: 50px;
-    transition-delay: 0.3s !important;
 }
+
 .biom__features-heading{
     position: relative;
     font-size: 28px;
@@ -1120,7 +1120,7 @@
 .biom__animate{
     opacity: 0;
     transform: translateY(30px);
-    transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 .biom__animate.visible {
     opacity: 1;
