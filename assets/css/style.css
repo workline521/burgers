@@ -170,6 +170,8 @@
     margin-top: 50px;
     position: relative;
     z-index: 10;
+    background: url('../images/poster.webp') no-repeat center;
+    background-size: cover;
 }
 .biom__video video{
     width: 100%;
@@ -480,8 +482,9 @@
     width: calc(100% - 34px);
     height: calc(100% - 34px);
     overflow: hidden;
-    background: #00E9F1;
     border-radius: 20px;
+    background: url('../images/poster3.jpg') no-repeat center;
+    background-size: cover;
 }
 .biom__why-video video{
     width: 100%;
@@ -637,7 +640,9 @@
     width: calc(100% - 30px);
     height: calc(100% - 30px);
     overflow: hidden;
-    border-radius: 20px;    
+    border-radius: 20px;
+    background: url('../images/poster2.webp') no-repeat center;
+    background-size: cover;
 }
 .biom__dev-video video{
     width: 100%;

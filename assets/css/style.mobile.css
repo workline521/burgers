@@ -108,6 +108,8 @@
     border-radius: 10px;
     overflow: hidden;
     z-index: 5;
+    background: url('../images/poster.webp') no-repeat center;
+    background-size: cover;
 }
 .biom__video video{
     position: absolute;
@@ -657,6 +659,8 @@
     height: calc(100% - 20px);
     overflow: hidden;
     border-radius: 10px;
+    background: url('../images/poster3.jpg') no-repeat center;
+    background-size: cover;
 }
 .biom__why-video video{
     width: 100%;
@@ -767,6 +771,8 @@
     height: calc(100% - 20px);
     overflow: hidden;
     border-radius: 10px;
+    background: url('../images/poster2.webp') no-repeat center;
+    background-size: cover;
 }
 .biom__dev-video video{
     width: 100%;
