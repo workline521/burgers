@@ -659,7 +659,7 @@
     height: calc(100% - 20px);
     overflow: hidden;
     border-radius: 10px;
-    background: url('../images/poster3.jpg') no-repeat center;
+    background: url('../images/poster3.webp') no-repeat center;
     background-size: cover;
 }
 .biom__why-video video{

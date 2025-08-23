@@ -3433,7 +3433,7 @@ display: none;
                     images[currentIndex].classList.remove('active');
                     currentIndex = (currentIndex + 1) % images.length;
                     images[currentIndex].classList.add('active');
-                }, 3000);
+                }, 1700);
             }
             document.addEventListener('DOMContentLoaded', function() {
                 document.querySelectorAll('.biom__product-wrap').forEach(setupImageSlider);
@@ -3444,7 +3444,7 @@ display: none;
                 const infoBlocks = document.querySelectorAll('.biom__animate');                
                 const options = {
                     root: null,
-                    rootMargin: '0px 0px -40% 0px',
+                    rootMargin: '0px 0px -30% 0px',
                     threshold: 0.2
                 };
                 const observer = new IntersectionObserver((entries, observer) => {
