@@ -1391,6 +1391,27 @@
         bottom: -190px;
     }
 }
+@media screen and (max-width: 1100px){
+    .biom__why-left{
+        width: 49%;    
+    }
+    .biom__why-content{
+        padding-left: 10px;
+    }
+    .biom__why-right{
+        width: 49%;
+        max-width: 485px;
+    }
+    .biom__why-txt {
+        font-size: 32px;
+    }
+    .biom__why-info {
+        font-size: 20px;
+    }
+    .biom__why-num span:nth-child(1){
+        font-size: 150px;
+    }
+}
 .sup {
     position: relative;
     top: -10px;
